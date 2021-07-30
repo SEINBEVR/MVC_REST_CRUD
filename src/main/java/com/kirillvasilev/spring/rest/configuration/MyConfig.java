@@ -25,8 +25,8 @@ public class MyConfig {
         try {
             dataSource.setDriverClass("com.mysql.cj.jdbc.Driver");
             dataSource.setJdbcUrl("jdbc:mysql://localhost:3306/my_db?useSSL=false");
-            dataSource.setUser("seinbear");
-            dataSource.setPassword("kvasilev.0520");
+            dataSource.setUser("inputUserName");
+            dataSource.setPassword("inputUserPassword");
         } catch (PropertyVetoException e) {
             e.printStackTrace();
         }
